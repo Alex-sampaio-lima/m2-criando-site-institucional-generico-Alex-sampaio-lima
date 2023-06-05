@@ -1,0 +1,261 @@
+/* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+#header__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color-0);
+    position: fixed;
+    width: 100%;
+}
+
+#logo__item {
+    margin-left: 216px;
+    background-color: var(--bg-color-0);
+}
+
+#button__header {
+    margin-right: 216px;
+    width: 241px;
+    height: 60px;
+    border: solid 1px var(--color-grey-4);
+    background-color: var(--bg-color-0);
+}
+
+body, h1, button, div {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+dialog {
+    padding: 0;
+    width: 546px;
+    height: 400px;
+    /* border: 1px solid rgb(205, 52, 28); */
+    display: flex;
+    flex-direction: row;
+}
+
+.modal__container {
+    /* border: 1px solid rgb(4, 255, 0); */
+    width: 551px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.modal__container > p {
+    width: 500px;
+}
+
+.modal__container > h1 {
+    width: 500px;
+}
+
+.resgistration__container {
+    display: flex;
+    gap: 317px;
+}
+
+.resgistration__text {
+    margin-left: 16px;
+}
+
+.resgistration__text > p {
+    font-size: 16px;
+}
+
+.resgistration__email {
+    margin-top: 10px;
+}
+
+.enter__class {
+    width: 448px;
+    height: 60px;
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-5);
+    margin-top: 20px;
+    padding: 0;
+}
+
+#close__modal {
+    border-radius: 5px ;
+    padding: 16px;
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-5);
+    width: 49px;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#email {
+    /* border: solid 1px rgb(232,123,12); */
+    width: 448px;
+    height: 60px;
+    background-color: var(--color-grey-0);
+    padding: 0;
+    margin: 0;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+#email:hover {
+    background-color: var(--color-grey-1);
+    color: white;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.about__item {
+    background-color: var(--bg-color-1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    height: 781px;
+    width: 100vmax;
+    justify-content: center;
+    gap: 44px;
+}
+
+#button__about {
+    background-color: var(--color-brand-1);
+    display: flex;
+    padding-top: 19.5px;
+    padding-right: 32px;
+    padding-bottom: 19.5px;
+    padding-left: 32px;
+}
+
+.who__item {
+    display: flex;
+    background-color: var(--bg-color-0);
+    height: 246px;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 340px;
+}
+
+.question__area {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    gap: 132px;
+}
+
+.question__item {
+    display: flex;
+    background-color: var(--bg-color-1);
+    flex-direction: column;
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 200px;
+}
+
+#next__class {
+    display: flex;
+    padding-top: 19.5px;
+    padding-right: 32px;
+    padding-bottom: 19.5px;
+    padding-left: 32px;
+    background-color: var(--color-brand-1);
+    width: 197px;
+    height: 22px;
+}
+
+#answers__course {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.span__item-1 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.span__item-2 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.span__item-3 {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.span__item-4 {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.students__list {
+    display: flex;
+    margin-left: 160px;
+    margin-left: 261px;
+}
+
+.student-1 {
+    display: flex;
+    gap: 30px;
+    margin-right: 78px;
+}
+
+.student-1>p {
+    width: 521px;
+}
+
+.comments__students {
+    padding-top: 28px;
+    padding-right: 19px;
+    padding-bottom: 19px;
+    padding-left: 0px;
+    width: 600px;
+    height: 480px;
+    background-color: var(--color-brand-2);
+    display: flex;
+    flex-direction: column;
+    margin-top: 41px;
+    align-items: center;
+    justify-content: center;
+}
+
+.comments__students > p {
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 71px;
+    width: 474px;
+    background-color: var(--color-brand-2);
+}
+
+.comments__students>h2 {
+    margin-top: -68px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 88px;
+}
+
+.name__footer {
+    width: auto;
+    height: 100px;
+    color: var(--color-grey-5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color-0);
+    margin-top: 100px;
+}

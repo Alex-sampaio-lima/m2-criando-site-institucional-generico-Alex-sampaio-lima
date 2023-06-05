@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Schibsted+Grotesk:ital,wght@0,600;1,600&display=swap');
+* {
+     font-family: 'Inter', sans-serif;
+     background-color: var(--bg-color-1);
+     list-style: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: var(--font-size-text-1);
+    font-weight: var(--font-weight-text-1);
+    line-height: var(--line-height-text-1);
+}
+
+:root {
+    /* Brand Colors */
+    --color-brand-1: #4C6EF5;
+    --color-brand-2: #364FC7;
+
+    /* Grey Colors */
+    --color-grey-0: #191C1F;
+    --color-grey-1: #212529;
+    --color-grey-2: #343A40;
+    --color-grey-3: #ADB5BD;
+    --color-grey-4: #CED4DA;
+    --color-grey-5: #F8F9FA;
+
+    /* Font-weight */
+    --font-weight-title-1: 600px;    
+    --font-weight-title-2: 600px;
+    --font-weight-title-3: 400px;
+    --font-weight-text-1: 400px;    
+    --font-weight-text-2: 400px;
+    --font-weight-text-3: 400px;
+
+    /* Font-Size */
+    --font-size-title-1: 52px;  
+    --font-size-title-2: 40px;
+    --font-size-title-3: 32px;
+    --font-size-text-1: 28px;
+    --font-size-text-2: 20px;
+    --font-size-text-3: 18px;
+
+    /* Line-Height */
+    --line-height-title-1: 72px;
+    --line-height-title-2: 64px;
+    --line-height-title-3: 44px;
+    --line-height-text-1: 44px;
+    --line-height-text-2: 30px;
+    --line-height-text-3: 27px;  
+    --line-height-text-4: 150%;  
+
+    /* Background-Color */
+    --bg-color-0: #191C1F;
+    --bg-color-1: #212529;
+    --bg-color-2: #343A40;
+    --bg-color-3: #ADB5BD;
+    --bg-color-4: #CED4DA;
+    --bg-color-5: #F8F9FA;
+}

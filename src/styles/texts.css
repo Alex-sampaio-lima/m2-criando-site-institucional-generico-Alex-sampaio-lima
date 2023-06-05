@@ -1,0 +1,72 @@
+/* Title */
+.font-title-1 {
+    font-size: var(--font-size-title-1);
+    font-weight: var(--font-weight-title-1);
+    line-height: var(--line-height-title-1);
+}
+
+.font-title-2 {
+    font-size: var(--font-size-title-2);
+    font-weight: var(--font-weight-title-2);
+    line-height: var(--line-height-title-2);
+}
+
+.font-title-3 {
+    font-size: var(--font-size-title-3);
+    font-weight: var(--font-weight-title-3);
+    line-height: var(--line-height-title-3);
+}
+
+/* Text */
+
+.font-text-1 {
+    font-size: var(--font-size-text-1);
+    font-weight: var(--font-weight-text-1);
+    line-height: var(--line-height-text-1);
+}
+
+.font-text-2 {
+    font-size: var(--font-size-text-2);
+    font-weight: var(--font-weight-text-2);
+    line-height: var(--line-height-text-2);
+}
+
+.font-text-3 {
+    font-size: var(--font-size-text-3);
+    font-weight: var(--font-weight-text-3);
+    line-height: var(--line-height-text-3);
+}
+
+/* Widht Text */
+
+.width-text-1 {
+    width: var(--width-text-1);
+}
+
+/* Background Colors */
+.bg-color-0 {
+    background-color: var(--bg-color-0);
+}
+
+.bg-color-1 {
+    background-color: var(--bg-color-1);
+}
+
+.bg-color-2 {
+    background-color: var(--bg-color-2);
+}
+
+.bg-color-3 {
+    background-color: var(--bg-color-3);
+}
+
+.bg-color-4 {
+    background-color: var(--bg-color-4);
+}
+
+.bg-color-5{
+    background-color: var(--bg-color-5);
+}
+
+
+
